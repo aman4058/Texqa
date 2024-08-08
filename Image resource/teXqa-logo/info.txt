@@ -1,0 +1,11 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: steelfish rg
+font link: https://www.fontspring.com/fonts/typodermic/steelfish/steelfish-regular
+font author: Typodermic Fonts
+font author site: http://typodermicfonts.com/
+
+
+{"bg-gradient-0":"#326D8A","bg-gradient-1":"#D468D7","icon":"#ffffff","font":"#ffffff","slogan":"#ffffff"}
+      

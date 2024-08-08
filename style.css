@@ -1,3 +1,11 @@
+.logo {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,7 +15,7 @@ body {
 }
 
 header {
-    background-color: #0073e6;
+    background-color: #a6a2a6;
     color: white;
     padding: 1rem 0;
     display: flex;
@@ -33,14 +41,14 @@ header nav ul li a {
 }
 
 .hero {
-    background-color: #0073e6;
+    background-color: #a6a2a6;
     color: white;
     text-align: center;
     padding: 2rem 1rem;
 }
 
 .hero .cta-button {
-    background-color: #ff6600;
+    background-color: #333;
     color: white;
     padding: 0.5rem 1rem;
     text-decoration: none;
@@ -92,3 +100,4 @@ footer .social-media a {
     margin: 0 0.5rem;
     text-decoration: none;
 }
+
