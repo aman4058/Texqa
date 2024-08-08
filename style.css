@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    background-color: #a6a2a6;
+    background-color: #ede8ed;
     color: white;
     padding: 1rem 0;
     display: flex;
@@ -101,3 +101,13 @@ footer .social-media a {
     text-decoration: none;
 }
 
+.navbar{
+    background-color: #c77cc7;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
