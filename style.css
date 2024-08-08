@@ -6,6 +6,33 @@
     
 }
 
+.nav-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nav-menu li {
+    margin: 0 10px;
+}
+
+.nav-menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.nav-menu a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
