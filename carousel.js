@@ -23,3 +23,10 @@ function prevSlide() {
 
 // Automatically change slides every 3 seconds (3000 ms)
 setInterval(nextSlide, 3000);
+
+
+document.querySelector('form').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent default form submission
+    // Your form submission logic here
+    window.location.href = '/thank-you.html'; // Redirect to thank you page
+});
