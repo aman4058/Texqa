@@ -206,3 +206,10 @@ footer .social-media a {
         right: 10px;
     }
 } */
+
+.about-us-img{
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+    border-radius: 20px;
+}

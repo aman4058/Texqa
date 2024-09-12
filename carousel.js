@@ -22,7 +22,7 @@ function prevSlide() {
 }
 
 // Automatically change slides every 3 seconds (3000 ms)
-setInterval(nextSlide, 3000);
+setInterval(nextSlide, 6000);
 
 
 document.querySelector('form').addEventListener('submit', function(event) {
