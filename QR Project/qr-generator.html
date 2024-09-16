@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator - TexQA</title>
+    <link rel="stylesheet" href="stylesQR.css"> <!-- Linking the external CSS file -->
+</head>
+<body>
+
+    <div class="container">
+        <h1>QR Code Generator</h1>
+        <p>Generate and customize QR codes for different purposes</p>
+        
+        <form id="qrForm">
+            <label for="qrType">Select QR Code Type:</label>
+            <select id="qrType" required>
+                <option value="text">Text</option>
+                <option value="url">URL</option>
+                <option value="email">Email</option>
+                <option value="wifi">Wi-Fi</option>
+                <option value="phone">Phone</option>
+            </select>
+
+            <div id="inputFields"></div>
+
+            <div class="custom-options">
+                <label for="color">QR Code Color:</label>
+                <input type="color" id="color" value="#000000">
+
+                <label for="size">Size (px):</label>
+                <input type="number" id="size" value="200" min="100" max="500">
+            </div>
+
+            <button type="submit">Generate QR Code</button>
+        </form>
+
+        <div class="qr-code-container" id="qrcode"></div>
+    </div>
+
+    <div id="qrcode"></div>
+    <div id="counter">
+        <p>Number of QR Codes Generated: <span id="qrCounter">0</span></p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+    <script src="qrScript.js"></script> <!-- Linking the external JavaScript file -->
+</body>
+</html>
