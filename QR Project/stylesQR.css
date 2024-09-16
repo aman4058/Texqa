@@ -1,0 +1,101 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 16px;
+    color: #555;
+}
+
+select, input[type="text"], input[type="url"], input[type="email"], input[type="password"], input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+select {
+    cursor: pointer;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.qr-code-container {
+    margin-top: 30px;
+}
+
+.qr-code-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.custom-options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.custom-options label {
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.custom-options input[type="color"], .custom-options input[type="number"] {
+    width: 100px;
+}
+
+/* General container styles */
+
+#qrcode {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping of QR codes */
+    justify-content: center; /* Center QR codes horizontally */
+    align-items: center; /* Center QR codes vertically */
+    padding: 10px;
+    gap: 20px; /* Space between QR codes */
+    overflow: auto; /* Scroll if content overflows */
+}
+
+/* QR code styling */
+#qrcode canvas {
+    max-width: 100%; /* Ensure canvas does not exceed container width */
+    max-height: 100%; /* Ensure canvas does not exceed container height */
+}
